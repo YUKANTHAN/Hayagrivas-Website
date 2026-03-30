@@ -1,0 +1,28 @@
+{
+    "programs": {
+        "early": {
+            "name": "Early Years (KG.I - KG.II)",
+            "annualFee": "₹45,000",
+            "admissionFee": "₹5,000",
+            "details": "Includes books, uniforms, and activity materials"
+        },
+        "primary": {
+            "name": "Primary Years (Class 1 - Class 5)",
+            "annualFee": "₹55,000",
+            "admissionFee": "₹5,000",
+            "details": "Includes books, lab access, and sports facilities"
+        },
+        "secondary": {
+            "name": "Secondary School (Class 6 - Class 12)",
+            "annualFee": "₹65,000",
+            "admissionFee": "₹5,000",
+            "details": "Includes books, advanced labs, and competitive exam coaching"
+        }
+    },
+    "contactInfo": {
+        "phone": "73737 44882",
+        "alternatePhone": "73737 44941",
+        "email": "admin@hayagrivascbse.com",
+        "address": "Hayagrivas Gardens, Pernaickenpatti, Sivakasi 626189"
+    }
+}

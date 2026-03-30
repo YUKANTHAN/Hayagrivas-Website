@@ -1,0 +1,39 @@
+/* Apply Now floating button styles */
+.apply-now-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  /* At the old WhatsApp position */
+  z-index: 99999;
+  background: linear-gradient(135deg, #8e44ad 0%, #3498db 100%);
+  color: #ffffff;
+  padding: 16px 28px;
+  /* Slightly more padding for the larger font */
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 1.2rem;
+  /* Increased font size as requested */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    opacity 0.18s ease;
+}
+
+.apply-now-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(142, 68, 173, 0.3);
+}
+
+@media (max-width: 600px) {
+  .apply-now-btn {
+    right: 14px;
+    bottom: 20px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+  }
+}
